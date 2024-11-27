@@ -1,0 +1,55 @@
+/* SuccessPage.css */
+
+/* Container styles */
+.success-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #e1e1e1;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .success-container h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .reservation-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reservation-details p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  
+  .reservation-details p strong {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .success-container {
+      padding: 20px;
+    }
+    .success-container h1 {
+      font-size: 28px;
+    }
+    .reservation-details {
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+  
